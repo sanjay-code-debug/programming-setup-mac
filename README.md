@@ -112,6 +112,16 @@ all types of services setup for mac OS
                 export CPPFLAGS="-I/opt/homebrew/opt/mysql@8.0/include"    |
 
 
+                brew services info mysql@8.0
+
+                ps aux | grep mysqld   (On which port mysql is running)
+
+                sudo lsof -i :3306  (mysql port) 
+
+                sudo kill -9 <PID>  
+
+
+
      Un-Install : = 
 
 
