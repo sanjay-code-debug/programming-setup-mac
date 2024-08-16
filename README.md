@@ -405,6 +405,8 @@ all types of services setup for mac OS
 
         - valet-plus install
 
+        -  Homebrew PHP appears not to be linked. Please run [valet use php@X.Y]  
+
         - * valet-plus install (default: installs mysql 5.7)
           * valet-plus install --with-mysql80 (installs mysql 8.0)
           * valet-plus install --with-mysql81 (installs mysql 8.1)
