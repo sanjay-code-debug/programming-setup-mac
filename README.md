@@ -137,6 +137,17 @@ all types of services setup for mac OS
 
          - Failure while executing; `/bin/launchctl bootstrap gui/503 /Users/sanjay.kumar/Library/LaunchAgents/homebrew.mxcl.mysql@8.0.plist` exited with 5. (check php is installed before mysql)
 
+
+         - socket issue mysql
+
+              - nano /opt/homebrew/etc/my.cnf  (check the socket )
+
+                 - [client]
+                   socket=/opt/homebrew/var/mysql/mysql.sock
+
+                 -[mysqld]
+                  socket=/opt/homebrew/var/mysql/mysql.sock   
+
    
     Important CMD
     =============
@@ -329,7 +340,8 @@ all types of services setup for mac OS
 
                   brew services restart php@8.1
                   
- 
+                  /opt/homebrew/etc/php/8.1/php.ini    = if want to modify the php.ini file location
+
                   
 
 
@@ -352,7 +364,7 @@ all types of services setup for mac OS
      
     Issues : = 
 
-         - Failure while executing; `/bin/launchctl bootstrap gui/503 /Users/sanjay.kumar/Library/LaunchAgents/homebrew.mxcl.php@8.1.plist` exited with 5
+    - Failure while executing; `/bin/launchctl bootstrap gui/503 /Users/sanjay.kumar/Library/LaunchAgents/homebrew.mxcl.php@8.1.plist` exited with 5
          
 
 
