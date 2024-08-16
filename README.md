@@ -407,6 +407,14 @@ all types of services setup for mac OS
 
         -  Homebrew PHP appears not to be linked. Please run [valet use php@X.Y]  
 
+                - valet use php@8.1
+
+        -  Brew was unable to install [mysql@5.7].
+
+                   - valet use mariadb@10.6
+                   - valet-plus install --with-mariadb
+                   
+
         - * valet-plus install (default: installs mysql 5.7)
           * valet-plus install --with-mysql80 (installs mysql 8.0)
           * valet-plus install --with-mysql81 (installs mysql 8.1)
