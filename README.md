@@ -155,6 +155,11 @@ all types of services setup for mac OS
      Un-Install : = 
 
               - brew uninstall mariadb
+              - brew uninstall mariadb@10.6 | x.y.z (versions)
+
+              - rm -rf /opt/homebrew/etc/mecabrc
+
+              - disable | remove for Login Items(system settings)
 
 
 
