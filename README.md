@@ -29,6 +29,29 @@ all types of services setup for mac OS
              - cs / md PSR
 
 
+     Most Important Note for MAC(Disable | Kill From GUI | Launchpad ) : 
+     ==================================================================
+
+               ( If any Services is Not Starting | Not Able Install | Re-Installed Also | But That Services is Not Starting )
+
+
+               - Issue with MAC (Launchedpad)
+
+               - System Settings --> General ---> Login Items ---> Allow in Background  (You can see lists of Services is Running )
+
+               - Remove from this GUI (click and select move to bin )
+               - Disable by using the - password(system password)
+               - Terminal Find that Service Port and Kill that Port
+
+               - Finally Try to Re-install the Services It will Works like a Cham
+
+        
+
+                                 
+
+             
+
+
  #### Brew (homebrew or brew)
  ---------------------------
      What Is : = 
