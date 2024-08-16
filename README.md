@@ -85,6 +85,68 @@ all types of services setup for mac OS
 
      
     Issues : = 
+                - first time installation if want to go inside run (mysql -uroot -p -enter (once enter set the password for root user) ) (may sudo need)
+
+                - 
+
+   
+    Important CMD
+    =============
+                Take DB BackUp
+                -------------
+                       = mysqldump -u root -p database_name > database_backup_name.sql
+                       
+               Import DB
+               -----------
+                    use db_name;
+                    source  import_db_name.sql;
+                    
+              Import Any Table to DB
+              ----------------------
+                   mysql -u root -p db_name < import_table_name.sql
+
+#### MariaDB
+------------
+     What Is : = 
+
+
+     Install : = 
+
+              - brew install mariadb
+              
+              - brew services start mariadb
+
+              - brew services stop mariadb
+
+              - brew services restart mariadb
+              
+              - mariadb-secure-installation (issue -1)
+
+              - sudo mysql
+              - ALTER USER 'root'@'localhost' IDENTIFIED BY 'password';
+              - FLUSH PRIVILEGES;
+
+               
+
+
+     Un-Install : = 
+
+              - brew uninstall mariadb
+
+
+
+     Path : = 
+
+     Error : = 
+
+     Any GUI location = 
+
+     
+    Issues : = 
+              1 - first time installation if want to go inside run (sudo mysql -enter (once enter set the password for root user) )
+                - 
+
+                - 
 
   
 #### ElasticSearch
