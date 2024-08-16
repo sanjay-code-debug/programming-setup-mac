@@ -272,6 +272,85 @@ all types of services setup for mac OS
      
     Issues : = 
 
+ ## Magento Setup For Macbook Pro (valet-plus Way)
+
+
+     Issues : = 
+
+               1 - not able to install if    - composer and php is not available in your system.
+
+               2 - sometime it is show error for root@localhost not having access using pass (YES / NO)  - go with MariaDB
+
+               3 - some time composer global require weprovide/valet-plus  this command will not work so try to reset the path 
+
+     Un-Install
+     ===========
+
+        - valet uninstall --force
+
+        - composer global remove laravel/valet
+
+
+     Install
+     =======
+         -  brew update
+         -  brew doctor 
+
+         - brew tap shivammathur/php
+           brew install shivammathur/php/php@8.1
+           brew link php@8.1 --force
+           brew services restart php@8.1
+           
+             (or)
+
+         - brew install php 
+         - brew install php@8.1 
+         - brew link php@8.1 --force
+         
+
+        - composer global require weprovide/valet-plus                      [global repo for valet-plus]
+        
+        - composer global config bin-dir --absolute (issue -3)              [to rebase the path for valet-plus]
+
+         export PATH="$HOME/.composer/vendor/bin:$PATH"                     [just add for envvironment support]
+
+         echo 'export PATH="$HOME/.composer/vendor/bin:$PATH"' >> ~/.zshrc  [just add for envvironment support]
+
+         source ~/.zshrc  [reload the mac core file]
+
+        - valet-plus install
+
+        - * valet-plus install (default: installs mysql 5.7)
+          * valet-plus install --with-mysql80 (installs mysql 8.0)
+          * valet-plus install --with-mysql81 (installs mysql 8.1)
+          * valet-plus install --with-mariadb (installs mariadb) (issue - 2)
+
+
+    For Magento   
+    ============
+
+             - /Users/sanjay.kumar/Sites/forevernew    (my magento folder location)
+
+             - cd /Users/sanjay.kumar/Sites
+
+                           - valet park 
+
+            - cd /forevernew
+            
+                          -  valet link forevernew   (link the project with valet)
+
+           - valet  link dev.forevernew.co.nz --secure   (link the domain)  ( here magento domain name :- dev.forevernew.co.nz)
+
+           - update the core_config_data table with the domain name  = http://dev.forevernew.co.nz.test    (.test is added to domain in table )
+
+           - valet start
+
+           - valet stop
+
+           - valet status
+                           
+
+    
 
 
 
