@@ -120,6 +120,11 @@ all types of services setup for mac OS
 
                 sudo kill -9 <PID>  
 
+                 cat /Users/sanjay.kumar/Library/LaunchAgents/homebrew.mxcl.mysql@8.0.plist
+
+
+                 rm /Users/sanjay.kumar/Library/LaunchAgents/homebrew.mxcl.mysql@8.0.plist
+
 
 
      Un-Install : = 
@@ -147,6 +152,9 @@ all types of services setup for mac OS
 
                  -[mysqld]
                   socket=/opt/homebrew/var/mysql/mysql.sock   
+
+
+                  
 
    
     Important CMD
