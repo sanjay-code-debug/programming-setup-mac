@@ -123,9 +123,9 @@ all types of services setup for mac OS
 
      
     Issues : = 
-                - first time installation if want to go inside run (mysql -uroot -p -enter (once enter set the password for root user) ) (may sudo need)
+           - when run - mysql_secure_installation we will get the error - Securing the MySQL server deployment. Error: Can't connect to local MySQL server through socket '/tmp/mysql.sock' (2)
 
-                - 
+            - 
 
    
     Important CMD
@@ -234,6 +234,34 @@ all types of services setup for mac OS
 
      
     Issues : = 
+
+
+#### MailHog
+------------
+      What Is : = 
+
+
+     Install : = 
+
+              brew install mailhog
+              
+
+     Un-Install : = 
+
+              brew uninstall mailhog
+              sudo rm -rf /opt/homebrew/Cellar/mailhog/1.0.1
+
+
+     Path : = 
+
+     Error : = 
+
+     Any GUI location = 
+
+     
+    Issues : = 
+  
+
 
 
 #### Redis
