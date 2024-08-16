@@ -133,9 +133,9 @@ all types of services setup for mac OS
 
      
     Issues : = 
-           - when run - mysql_secure_installation we will get the error - Securing the MySQL server deployment. Error: Can't connect to local MySQL server through socket '/tmp/mysql.sock' (2)
+         - when run - mysql_secure_installation we will get the error - Securing the MySQL server deployment. Error: Can't connect to local MySQL server through socket '/tmp/mysql.sock' (2)
 
-            - 
+         - Failure while executing; `/bin/launchctl bootstrap gui/503 /Users/sanjay.kumar/Library/LaunchAgents/homebrew.mxcl.mysql@8.0.plist` exited with 5. (check php is installed before mysql)
 
    
     Important CMD
@@ -323,8 +323,18 @@ all types of services setup for mac OS
 
      Install : = 
 
+                  brew install php@8.1
+                  
+
 
      Un-Install : = 
+
+                  brew uninstall php@8.1
+
+                  rm -rf /opt/homebrew/etc/php
+
+                  rm -rf /opt/homebrew/etc/php-valet-bak1723803667
+                  
 
 
      Path : = 
