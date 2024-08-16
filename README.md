@@ -324,6 +324,12 @@ all types of services setup for mac OS
      Install : = 
 
                   brew install php@8.1
+
+                  brew info php@8.1
+
+                  brew services restart php@8.1
+                  
+ 
                   
 
 
@@ -345,6 +351,9 @@ all types of services setup for mac OS
 
      
     Issues : = 
+
+         - Failure while executing; `/bin/launchctl bootstrap gui/503 /Users/sanjay.kumar/Library/LaunchAgents/homebrew.mxcl.php@8.1.plist` exited with 5
+         
 
 
 #### Composer
