@@ -96,6 +96,21 @@ all types of services setup for mac OS
 
      Install : = 
 
+                brew install mysql@8.0
+
+                brew services start mysql@8.0
+
+                 mysql -u root (to connect first time) 
+
+                /opt/homebrew/opt/mysql@8.0/bin/mysqld_safe --datadir\=/opt/homebrew/var/mysql :-: (if you don't want/need a background service you can just run)
+                
+                mysql_secure_installation  :-: (We've installed your MySQL database without a root password. To secure it run)
+
+                echo 'export PATH="/opt/homebrew/opt/mysql@8.0/bin:$PATH"' >> ~/.zshrc   :-:  If you need to have mysql@8.0 first in your PATH, run:
+
+                export LDFLAGS="-L/opt/homebrew/opt/mysql@8.0/lib"         | (For compilers to find mysql@8.0 you may need to set ) 
+                export CPPFLAGS="-I/opt/homebrew/opt/mysql@8.0/include"    |
+
 
      Un-Install : = 
 
