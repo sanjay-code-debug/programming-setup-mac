@@ -361,7 +361,9 @@ all types of services setup for mac OS
 
                   brew services restart php@8.1
                   
-                  /opt/homebrew/etc/php/8.1/php.ini    = if want to modify the php.ini file location
+                  /opt/homebrew/etc/php/8.1/php.ini    = if want to modify the php.ini file location (to increase the memory_limit)
+
+                  nano /opt/homebrew/etc/php/8.1/php-fpm.d/www.conf   (to modify the listen port)
 
                   
 
