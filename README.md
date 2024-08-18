@@ -90,15 +90,54 @@ all types of services setup for mac OS
 
      Install : = 
 
+                brew install nginx
+                
+
 
      Un-Install : = 
 
+               brew uninstall nginx
 
-     Path : = 
+
+     Path : = /opt/homebrew/etc/nginx
+
+            - nginx.conf
+
+            - /opt/homebrew/etc/nginx
+            - cd server (create your .conf file for hosts configuration)
+
+            
 
      Error : = 
 
      Any GUI location = 
+
+
+ #### Apache2(httpd)
+ --------------------
+     What Is : = 
+
+
+     Install : = 
+
+                brew install httpd
+                
+     Un-Install : = 
+
+               brew uninstall httpd
+
+     Path : =  /opt/homebrew/etc/httpd
+
+           cd /opt/homebrew/etc/httpd/extra
+              nano httpd-vhosts.conf (add your configuration)
+
+           nano /opt/homebrew/etc/httpd/httpd.conf  (here enable/include the file -  /opt/homebrew/etc/httpd/httpd.conf )
+         
+              
+
+     Error : = 
+
+     Any GUI location =      
 
 
 
