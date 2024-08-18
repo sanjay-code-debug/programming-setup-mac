@@ -59,9 +59,20 @@ all types of services setup for mac OS
 
      Install : = 
 
+        - brew services list
+        - brew update
+        - brew cleanup
+        - brew doctor
+
+        - brew services start  service_name
+        - brew services restart service_name
+        - brew service stop service_name
+        - brew install service_name
+        - brew uninstall service_name
 
      Un-Install : = 
 
+        - brew uninstall
 
      Path : = 
 
