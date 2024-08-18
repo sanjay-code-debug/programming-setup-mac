@@ -384,6 +384,12 @@ all types of services setup for mac OS
     Issues : = 
 
     - Failure while executing; `/bin/launchctl bootstrap gui/503 /Users/sanjay.kumar/Library/LaunchAgents/homebrew.mxcl.php@8.1.plist` exited with 5
+
+    Memory limit issue (MAC)
+
+          php -dmemory_limit=5G bin/magento setup:di:compile 
+          php -dmemory_limit=5G bin/magento setup:static:content:deploy -f
+    
          
 
 
