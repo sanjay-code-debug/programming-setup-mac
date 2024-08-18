@@ -13,6 +13,8 @@ all types of services setup for mac OS
  ## Magento Setup For Macbook Pro (Normal Way)
       Services using brew(homebrew)
       -----------------------------
+             sudo lsof -i -P | grep LISTEN   -- list all port
+ 
              - brew 
              - nginx
              - mysql
