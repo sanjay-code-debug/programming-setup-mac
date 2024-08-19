@@ -419,7 +419,7 @@ all types of services setup for mac OS
 
      Path : = 
 
-     Error : = 
+     Error : = /opt/homebrew/var/log
 
      Any GUI location = 
 
