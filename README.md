@@ -600,6 +600,11 @@ all types of services setup for mac OS
            - valet stop
 
            - valet status
+
+
+         config.json location   - /Users/sanjay.kumar/.config/valet 
+
+         valet paths | valet links | valet unlink url | 
                            
 
     
