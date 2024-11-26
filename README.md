@@ -224,6 +224,10 @@ all types of services setup for mac OS
               ----------------------
                    mysql -u root -p db_name < import_table_name.sql
 
+             Take Table Backup From Database
+             ----------------------------------
+                 mysqldump -u root -p staging core_config_data.sql > core_config_data.sql      
+
 #### MariaDB
 ------------
      What Is : = 
