@@ -258,8 +258,8 @@ all types of services setup for mac OS
              ----------------------------------
                  mysqldump -u root -p staging core_config_data.sql > core_config_data.sql      
 
-#### MariaDB
-------------
+#### MariaDB Install
+--------------------
      What Is : = 
 
 
@@ -305,6 +305,16 @@ all types of services setup for mac OS
                 - 
 
                 - 
+
+
+#### MariaDB Upgrade 
+--------------------
+
+      - Take Database BackUp Always  
+
+      - MariaDB: 11.4
+
+      
 
   
 #### ElasticSearch
