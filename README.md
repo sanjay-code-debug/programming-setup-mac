@@ -9,6 +9,36 @@ all types of services setup for mac OS
 
 
 
+## Composer Install 
+
+
+
+
+## Composer Upgrade 
+
+     - composer --version
+     
+     - Current Composer version 2.8.9 2025-05-13 14:01:37
+
+     - Upgrade to - Composer: 2.9.3+
+     
+
+     
+## PHP Install
+
+
+
+## PHP Upgrade 
+
+     - php -v
+
+     - Current Php Version - PHP 8.1.33 (cli) (built: Jul  1 2025 21:17:52) (NTS)
+
+     - Upgrade to - PHP: 8.3
+
+     
+
+
 
  ## Magento Setup For Macbook Pro (Normal Way)
       Services using brew(homebrew)
